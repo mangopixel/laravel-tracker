@@ -1,0 +1,34 @@
+{
+    "name": "mangopixel/laravel-adjuster",
+    "description": "A Laravel package for keeping track of your model changes.",
+    "keywords": [ "laravel", "eloquent", "tracker", "changes" ],
+    "homepage": "https://github.com/mangopixel/laravel-adjuster",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Tømmerås",
+            "email": "flugged@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/database": "5.1.* || 5.2.* || 5.3.*",
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.5",
+        "fzaninotto/faker": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mangopixel\\Tracker\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mangopixel\\Tracker\\Tests\\": "tests"
+        }
+    }
+}
